@@ -1,0 +1,37 @@
+{
+  "name": "@chravi414/custom-player",
+  "version": "1.0.0",
+  "description": "A custom player for testing",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "source": "src/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ravindra Reddy (chravi414)",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "react": "^17.0.2",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react-player": "^2.9.0",
+    "styled-components": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chravi414/custom-player.git"
+  }
+}
